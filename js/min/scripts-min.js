@@ -1,0 +1,1 @@
+$(function(){$("area").magnificPopup({removalDelay:500,callbacks:{beforeOpen:function(){this.st.mainClass=this.st.el.attr("data-effect")}},midClick:!0})}),$(document).ready(function(a){$("img[usemap]").rwdImageMaps()});
