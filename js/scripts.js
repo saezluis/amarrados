@@ -9,6 +9,7 @@ $(function(){
 $('area').magnificPopup({
   //delegate: 'a',
   removalDelay: 500, //delay removal by X to allow out-animation
+  closeOnContentClick: false,
   callbacks: {
     beforeOpen: function() {
        this.st.mainClass = this.st.el.attr('data-effect');
