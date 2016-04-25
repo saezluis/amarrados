@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18268",
 "files": {
+	"\/config.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/magnific-popup.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -35,7 +44,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86838,
+		"initialSize": 40069,
 		"inputAbbreviatedPath": "\/img\/amarras.png",
 		"outputAbbreviatedPath": "\/img\/amarras.png",
 		"outputPathIsOutsideProject": 0,
@@ -57,7 +66,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 585040,
+		"initialSize": 492964,
 		"inputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -90,7 +99,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17459,
+		"initialSize": 151079,
 		"inputAbbreviatedPath": "\/img\/logo.png",
 		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -112,7 +121,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 433900,
+		"initialSize": 466227,
 		"inputAbbreviatedPath": "\/img\/tiza.png",
 		"outputAbbreviatedPath": "\/img\/tiza.png",
 		"outputPathIsOutsideProject": 0,
@@ -123,7 +132,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36947,
+		"initialSize": 41799,
 		"inputAbbreviatedPath": "\/img\/tizaok.png",
 		"outputAbbreviatedPath": "\/img\/tizaok.png",
 		"outputPathIsOutsideProject": 0,
@@ -132,9 +141,18 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -145,9 +163,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "\/jade\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/js\/jquery.magnific-popup.js": {
@@ -194,418 +212,20 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/material\/jQuery-rwdImageMaps-master\/jquery.rwdImageMaps.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/jquery.rwdImageMaps.js",
-		"outputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/min\/jquery.rwdImageMaps-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/jQuery-rwdImageMaps-master\/jquery.rwdImageMaps.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/jquery.rwdImageMaps.min.js",
-		"outputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/min\/jquery.rwdImageMaps.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/jQuery-rwdImageMaps-master\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/README.md",
-		"outputAbbreviatedPath": "\/material\/jQuery-rwdImageMaps-master\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/dist\/jquery.magnific-popup.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/dist\/jquery.magnific-popup.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/dist\/min\/jquery.magnific-popup-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/dist\/jquery.magnific-popup.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/dist\/jquery.magnific-popup.min.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/dist\/min\/jquery.magnific-popup.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/dist\/magnific-popup.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/dist\/magnific-popup.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/Gruntfile.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/min\/Gruntfile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/libs\/jquery-loader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/jquery-loader.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/min\/jquery-loader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/libs\/jquery\/jquery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/jquery\/jquery.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/jquery\/min\/jquery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/libs\/qunit\/qunit.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/qunit\/qunit.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/libs\/qunit\/qunit.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/qunit\/qunit.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/libs\/qunit\/min\/qunit-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/README.md",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/src\/css\/_settings.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/css\/_settings.scss",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/css\/_settings.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/material\/Magnific-Popup-master\/src\/css\/main.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/css\/main.scss",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/ajax.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/ajax.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/ajax-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/core.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/core.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/core-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/gallery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/gallery.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/gallery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/iframe.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/iframe.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/iframe-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/image.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/image.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/image-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/inline.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/inline.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/inline-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/retina.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/retina.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/retina-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/src\/js\/zoom.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/zoom.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/src\/js\/min\/zoom-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/_includes\/analytics.html": {
+	"\/procesar-contacto.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_includes\/analytics.html",
+		"inputAbbreviatedPath": "\/procesar-contacto.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/material\/Magnific-Popup-master\/website\/_includes\/build-tool.html": {
+	"\/process.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_includes\/build-tool.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/_includes\/examples.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_includes\/examples.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/_includes\/logo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_includes\/logo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/_includes\/signup.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_includes\/signup.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/_layouts\/default.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/_layouts\/default.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/documentation.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/documentation.md",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/documentation.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/site-assets\/ajax\/test-ajax-2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/site-assets\/ajax\/test-ajax-2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/site-assets\/ajax\/test-ajax.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/site-assets\/ajax\/test-ajax.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/site-assets\/site.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/site-assets\/site.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/material\/Magnific-Popup-master\/website\/third-party-libs\/jquery.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/jquery.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/min\/jquery-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/third-party-libs\/jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/jquery.min.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/min\/jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/third-party-libs\/uglify.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/uglify.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/min\/uglify-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/third-party-libs\/zepto.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/zepto.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/min\/zepto-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/third-party-libs\/zepto.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/zepto.min.js",
-		"outputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/third-party-libs\/min\/zepto.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/material\/Magnific-Popup-master\/website\/wordpress.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/material\/Magnific-Popup-master\/website\/wordpress.html",
+		"inputAbbreviatedPath": "\/process.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -881,10 +501,10 @@
 		"inputAbbreviatedPath": "\/scss\/styles.scss",
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/scss\/tema\/_aside.scss": {
@@ -975,9 +595,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "amarrados-vendedor",
+	"displayValue": "amarrados",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_blue"
+	"iconImageName": "globe_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

@@ -415,7 +415,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 					font-size: 2em;
 				}
 			}
-			input[type="submit"]{
+			input[type="button"]{
 				background: $amarillo;
 				color: $negro;
 				text-align: center;
@@ -424,6 +424,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				width: 90%;
 				margin-top: 0.8em;
 				font-size: 1.5em;
+				cursor:pointer;
 				@include desde (tablet){
 					width: 60%;
 				}
