@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js" integrity="sha256-DI6NdAhhFRnO2k51mumYeDShet3I8AKCQf/tf7ARNhI=" crossorigin="anonymous"></script>
 
+	<script src="js/jquery.rwdImageMaps.js"></script>
+	<script src="http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js"></script>
 	<script src="js/scripts.js"></script>
+	
     <title>Amarrados / Vendedor</title>
 	
 	<script type="text/javascript">
@@ -34,8 +37,6 @@
 				  });
 
 			});
-			
-			
 			
 			$("#button2").click(function(){
 				
@@ -150,7 +151,7 @@
 			<label for="mail">Tu mail</label>
 			<input type="mail" name="mail" id="mail" required />
 			<label for="cuentame"> cuéntanos</label>
-			<textarea name="cuentame" id="cuentame" required></textarea>
+			<textarea name="cuentame" id="cuentame" required ></textarea>
 			<input type="submit" value="Enviar" id="button2" />
 			<span id="mensaje"></span>
         </form>
@@ -170,148 +171,33 @@
                 <th>Premio</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-              <tr>
-                <td>Camilo Ogino</td>
-                <td>21/03/2016</td>
-                <td>$250.000</td>
-              </tr>
-            </tbody>
+			<?php
+				include_once 'config.php';
+		
+				$conexion=mysqli_connect($host,$username,$password,$db_name) or die("Problemas con la conexión");
+				$acentos = $conexion->query("SET NAMES 'utf8'");
+				
+				$registrosGanadores = mysqli_query($conexion, "SELECT * FROM ganadores") or die("Problemas con la conexión".mysqli_error($conexion));
+				
+				echo "<tbody>";
+					while($reg=mysqli_fetch_array($registrosGanadores)){
+						
+						$nombre = $reg['nombre'];
+						$fecha = $reg['fecha'];
+						$premio = $reg['premio'];
+						
+						//$originalDate = "2010-03-21";
+						$newDate = date("d/m/y", strtotime($fecha));
+					
+						echo "<tr>";
+							echo "<td>$nombre</td>";
+							echo "<td>$newDate</td>";
+							echo "<td>$premio</td>";
+						echo "</tr>";
+						
+					}
+				echo "</tbody>";
+			?>
           </table>
         </div>
       </div>
@@ -320,22 +206,7 @@
       <div class="box-light">
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
         <div class="amarritas"><img src="img/amarras.png" alt=""/></div>
-        <h1>Ver mis avances</h1>
-		<!--
-        <form id="revisor">
-          <fieldset>
-            <label>para revisar tu avance, ingresa tu RUT</label>
-            <input type="number" value=""/>
-            <input type="submit" value="Revisar"/>
-          </fieldset>
-          <fieldset class="ocultar"> 
-            <label>Tu meta mensual es de :</label>
-            <input type="text" value="10.000 pts."/>
-            <label>Hasta hoy tienes:</label>
-            <input type="text" value="1500 pts."/>
-          </fieldset>
-        </form>
-		-->
+        <h1>Ver mis avances</h1>		
 		<form id="revisor">
           <fieldset>
             <label>para revisar tu avance, ingresa tu RUT</label>
@@ -350,7 +221,5 @@
         <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
       </div>
     </div>
-  </body>
-  <script src="js/jquery.rwdImageMaps.js"></script>
-  <script src="http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js"></script>
+  </body> 
 </html>
