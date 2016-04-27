@@ -24,9 +24,9 @@
         echo "Hasta hoy tienes: $row[name] Pts";
 		*/
 		echo "<label>Tu meta mensual es de :</label>";
-        echo "<input type=\"text\" value=\"40.000 pts.\" readonly />";
+        echo "<input type=\"text\" value=\"40.000 sobres.\" readonly />";
         echo "<label>Hasta hoy tienes:</label>";
-        echo "<input type=\"text\" value=\"$row[name] pts.\" readonly />";
+        echo "<input type=\"text\" value=\"$row[name] sobres.\" readonly />";
      }else{
 		echo "El RUT no está registrado";
 	 }
