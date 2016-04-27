@@ -111,6 +111,18 @@
             <p>Para una mejor experiencia gire su dispositivo en vertical</p>
           </div>
           <div class="wrap">
+            <section class="ed-container solomobil">
+              <div class="ed-item base-50">
+                <div class="logoUp">
+                  <img src="img/zuko.svg" alt="">
+                </div>
+              </div>
+              <div class="ed-item base-50">
+                <div class="logoUp">
+                  <img src="img/livean.svg" alt="">
+                </div>
+              </div>
+            </section>
             <div class="logo no-logo"><a href="index.html" title="Amarrados" alt="Amarrados"><img src="img/logo.png" alt=""/></a></div>
             <div class="navegacion">
               <div class="nav-palomita"><img name="palomita" src="img/palomita.png" width="416" height="507" id="palomita" usemap="#m_palomita" alt=""/><map id="m_palomita" name="m_palomita">
@@ -120,7 +132,14 @@
                   <area shape="poly" coords="286,212,274,218,245,224,218,224,195,225,172,227,160,222,161,205,165,190,167,184,197,183,220,181,243,181,271,180,286,184,287,205,286,212" href="bases.html" alt=""/>
                   <area shape="poly" coords="294,170,234,176,175,180,139,178,133,158,137,140,155,137,172,138,186,139,199,139,210,138,227,138,236,137,246,137,257,137,268,137,286,136,294,170" href="#test-popup" data-effect="mfp-move-from-top" alt="" class="open-popup-link"/>
                   <area shape="poly" coords="153,88,148,129,194,132,233,131,276,126,283,112,264,90,225,80,153,88" href="#" alt=""/></map></div>
+                  <div class="bille-verde">
+                    <img src="img/billete-verde.png" alt="">
+                  </div>
+                  <div class="bille-azul">
+                    <img src="img/billete-azul.png" alt="">
+                  </div>
             </div>
+            <div class="claim-foot-mobile"><img src="img/desata.png" alt=""/></div>
             <div class="claim-foot"><img src="img/ima-foot.png" alt=""/></div>
           </div>
         </div>
@@ -131,11 +150,36 @@
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
         <div class="amarritas"><img src="img/amarras.png" alt=""/></div>
         <h1>Premios</h1>
-        <ul class="data-premio">
-          <li>Primer Lugar $ 250.000</li>
-          <li>Segundo Lugar $50.000</li>
-          <li>Tercer lugar $25.500</li>
-        </ul>
+        <p class="mecanica">Mientras más Zuko y Livean compres, más opciones tienes de ganar hasta $300.000 semanales, participando en cualquiera de estas categorías:<br/>(Se considerarán las ventas netas.)</p>
+        <div class="ed-container">
+          <div class="tarjetas color_n">
+            <div class="ed-item">
+              <div class="tarjetits">
+                <img src="img/bronce.png" alt="">
+              </div>
+              <p class="titulo_premios">Bronce</p>
+              <p class="titulo_premios__bajada">Por compras superiores a $5.000, hasta $10.000 en la semana, estás participando por 20 premios semanales de $20.000</p>
+            </div>
+          </div>
+          <div class="tarjetas color_z">
+            <div class="ed-item">
+              <div class="tarjetits">
+                <img src="img/plata.png" alt="">
+              </div>
+              <p class="titulo_premios">Plata</p>
+              <p class="titulo_premios__bajada">Por compras superiores a $10.001, hasta $35.000 en la semana,  estás participando por 10 premios semanales de $50.000</p>
+            </div>
+          </div>
+          <div class="tarjetas color_n">
+            <div class="ed-item">
+              <div class="tarjetits">
+                <img src="img/oro.png" alt="">
+              </div>
+              <p class="titulo_premios">Oro</p>
+              <p class="titulo_premios__bajada">Por compras superiores a $35.001 en la semana,  estás participando por 2 premios semanales de $300.000</p>
+            </div>
+          </div>
+        </div>
         <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
       </div>
     </div>

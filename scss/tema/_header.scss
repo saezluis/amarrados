@@ -49,7 +49,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 110vh;
+    height:130vh;
     width: 100% ;
 	background: rgba(0,143,55,1);
 	background: -moz-linear-gradient(left, rgba(0,143,55,1) 0%, rgba(0,143,55,1) 49%, rgba(0,116,179,1) 50%, rgba(0,116,179,1) 100%);
@@ -64,7 +64,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 	// 	height: 100vh;
 	// }
     @include desde (tablet){
-    	background: url(../img/bg-vendedor.jpg) no-repeat -315px;//245
+    	background: url(../img/bg-vendedor.jpg) no-repeat -220px;//315//245
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -101,6 +101,16 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		width:100%;
 		height:500%;
 
+		.solomobil{
+			.logoUp{
+				text-align: center;
+				margin-top:1em;
+			}
+			@include desde (tablet){
+				display:none;
+			}
+		}
+
 		.logo{
 			width: 100%;
 			margin: 1em 0;
@@ -111,9 +121,31 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		}
 
 		.navegacion{
+			position: relative;
 			@include desde (tablet){
 				position: absolute;
 				bottom:20px;
+				width: 43%;
+			}
+			@include desde (tablet){
+				width: 40%;
+			}
+			.bille-verde,
+			.bille-azul{
+				position: absolute;
+				@include desde (tablet){
+					display:none;
+				}
+			}
+			.bille-verde{
+				top:90px;
+				width: 30%;
+				left: -18px;
+			}
+			.bille-azul{
+				width: 30%;
+				right: 0;
+				bottom:0;
 			}
 			.nav-palomita{
 				cursor: pointer;
@@ -122,17 +154,29 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 					width: 90%;
 				}
 				@include desde (web){
-					width: 70%;
+					width: 78%;
 				}
+				@include desde (hd){
+					width: 56%;
+				}
+			}
+		}
+		.claim-foot-mobile{
+			margin-top:10px;
+			text-align: center;
+			@include desde (tablet){
+				display: none;
 			}
 		}
 		.claim-foot{
 			// position: absolute;
-			bottom:0px;
-			width: 80%;
-			right: 0;
+			display: none;
 			@include desde (tablet){
 				position: absolute;
+				display:block;
+				bottom:0px;
+				width: 80%;
+				right: 0;
 			}
 			@include desde (hd){
 				width: 70%;
@@ -251,6 +295,47 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				font-size: 3.5em;
 			}
 		}
+		.tarjetas{
+			width: 100%;
+			margin-bottom: 1.1em;
+			padding: 12px 0 0 0;
+			.tarjetits{
+			    width: 80%;
+			    text-align: center;
+			    margin: 0 auto;
+			    @include desde (tablet){
+			    	float:left;
+			    	width: 22%;//29
+			    	margin-right: 1em;
+			    }
+			    @include desde (hd){
+			    	width: 15%;
+			    }
+			}
+			p.titulo_premios{
+				margin: 0;
+				text-transform: uppercase;
+			}
+			p.titulo_premios__bajada{
+				@include desde (tablet){
+					font-size: .85em;
+				}
+			}
+		}
+		.color_n{
+			background: $sal;
+		}
+		.color_z{
+			background:$azul;
+		}
+
+
+		p.mecanica{
+			padding: 0 1em;
+			color:$blanco;
+			text-align: center;
+			width: 100%;
+		}
 		ul.data-premio{
 			margin:0;
 			padding:0;
@@ -293,8 +378,14 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			display: none;
 			@include desde (tablet){
 				display: block;
-				bottom: -100px;
-				left: -50px;
+				bottom: 0px;
+				left: -32px;
+				width: 12%;
+			}
+			@include desde (web){
+				width: 12%;
+				bottom: -30px;
+				left: -42px;
 			}
 		}
 	}
