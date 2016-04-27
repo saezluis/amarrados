@@ -4080,6 +4080,44 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       @media screen and (min-width: 1024px) {
         #test-popup .box-light h1, #contacto .box-light h1, #ganadores .box-light h1, #consulta .box-light h1 {
           font-size: 3.5em; } }
+    #test-popup .box-light .cuadro, #contacto .box-light .cuadro, #ganadores .box-light .cuadro, #consulta .box-light .cuadro {
+      background: #ffcc00;
+      padding: 2px;
+      width: 100%;
+      margin: 0 6px; }
+      @media screen and (min-width: 768px) {
+        #test-popup .box-light .cuadro, #contacto .box-light .cuadro, #ganadores .box-light .cuadro, #consulta .box-light .cuadro {
+          margin: 0 auto;
+          width: 60%; } }
+      @media screen and (min-width: 1024px) {
+        #test-popup .box-light .cuadro, #contacto .box-light .cuadro, #ganadores .box-light .cuadro, #consulta .box-light .cuadro {
+          width: 93%; } }
+      #test-popup .box-light .cuadro h3, #contacto .box-light .cuadro h3, #ganadores .box-light .cuadro h3, #consulta .box-light .cuadro h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        margin: 0 0 5px 0;
+        padding: 5px 0; }
+      #test-popup .box-light .cuadro .box-table, #contacto .box-light .cuadro .box-table, #ganadores .box-light .cuadro .box-table, #consulta .box-light .cuadro .box-table {
+        border-top: 2px solid #000;
+        overflow: hidden;
+        overflow: hidden;
+        padding: 0.5em 0; }
+        #test-popup .box-light .cuadro .box-table .tablaCuadro, #contacto .box-light .cuadro .box-table .tablaCuadro, #ganadores .box-light .cuadro .box-table .tablaCuadro, #consulta .box-light .cuadro .box-table .tablaCuadro {
+          width: 49%;
+          float: left;
+          padding: 0 1em;
+          font-size: 0.8em;
+          color: #000;
+          text-align: center;
+          font-weight: bold;
+          vertical-align: medium; }
+          #test-popup .box-light .cuadro .box-table .tablaCuadro span.numbersT, #contacto .box-light .cuadro .box-table .tablaCuadro span.numbersT, #ganadores .box-light .cuadro .box-table .tablaCuadro span.numbersT, #consulta .box-light .cuadro .box-table .tablaCuadro span.numbersT {
+            width: 100%;
+            margin-bottom: 10px;
+            display: block; }
+    #test-popup .box-light .margen-top, #contacto .box-light .margen-top, #ganadores .box-light .margen-top, #consulta .box-light .margen-top {
+      margin-top: 1em; }
     #test-popup .box-light .tarjetas, #contacto .box-light .tarjetas, #ganadores .box-light .tarjetas, #consulta .box-light .tarjetas {
       width: 100%;
       margin-bottom: 1.1em;
@@ -4215,16 +4253,16 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       #ganadores .pure-table {
         width: 90%; } }
 
-#consulta form#revisor {
+#consulta form#revisor, #consulta form#revisorpremios, #test-popup form#revisor, #test-popup form#revisorpremios {
   width: 100%;
   text-align: center; }
-  #consulta form#revisor fieldset {
+  #consulta form#revisor fieldset, #consulta form#revisorpremios fieldset, #test-popup form#revisor fieldset, #test-popup form#revisorpremios fieldset {
     border: none; }
-    #consulta form#revisor fieldset label {
+    #consulta form#revisor fieldset label, #consulta form#revisorpremios fieldset label, #test-popup form#revisor fieldset label, #test-popup form#revisorpremios fieldset label {
       width: 100%;
       display: block;
       margin: 0.5em 0; }
-    #consulta form#revisor fieldset input[type="number"] {
+    #consulta form#revisor fieldset input[type="number"], #consulta form#revisorpremios fieldset input[type="number"], #test-popup form#revisor fieldset input[type="number"], #test-popup form#revisorpremios fieldset input[type="number"] {
       border: none;
       border: 2px solid #ffcc00;
       background: transparent;
@@ -4234,9 +4272,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       text-align: center;
       font-size: 1.5em; }
       @media screen and (min-width: 768px) {
-        #consulta form#revisor fieldset input[type="number"] {
+        #consulta form#revisor fieldset input[type="number"], #consulta form#revisorpremios fieldset input[type="number"], #test-popup form#revisor fieldset input[type="number"], #test-popup form#revisorpremios fieldset input[type="number"] {
           width: 60%; } }
-    #consulta form#revisor fieldset input[type="text"] {
+    #consulta form#revisor fieldset input[type="text"], #consulta form#revisorpremios fieldset input[type="text"], #test-popup form#revisor fieldset input[type="text"], #test-popup form#revisorpremios fieldset input[type="text"] {
       border: none;
       background: transparent;
       padding: 8px;
@@ -4246,12 +4284,12 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       font-size: 2.5em;
       text-transform: uppercase; }
       @media screen and (min-width: 768px) {
-        #consulta form#revisor fieldset input[type="text"] {
+        #consulta form#revisor fieldset input[type="text"], #consulta form#revisorpremios fieldset input[type="text"], #test-popup form#revisor fieldset input[type="text"], #test-popup form#revisorpremios fieldset input[type="text"] {
           width: 60%; } }
       @media screen and (min-width: 1024px) {
-        #consulta form#revisor fieldset input[type="text"] {
+        #consulta form#revisor fieldset input[type="text"], #consulta form#revisorpremios fieldset input[type="text"], #test-popup form#revisor fieldset input[type="text"], #test-popup form#revisorpremios fieldset input[type="text"] {
           font-size: 2em; } }
-    #consulta form#revisor fieldset input[type="button"] {
+    #consulta form#revisor fieldset input[type="button"], #consulta form#revisorpremios fieldset input[type="button"], #test-popup form#revisor fieldset input[type="button"], #test-popup form#revisorpremios fieldset input[type="button"] {
       background: #ffcc00;
       color: #000;
       text-align: center;
@@ -4262,7 +4300,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       font-size: 1.5em;
       cursor: pointer; }
       @media screen and (min-width: 768px) {
-        #consulta form#revisor fieldset input[type="button"] {
+        #consulta form#revisor fieldset input[type="button"], #consulta form#revisorpremios fieldset input[type="button"], #test-popup form#revisor fieldset input[type="button"], #test-popup form#revisorpremios fieldset input[type="button"] {
           width: 60%; } }
 
 /*!

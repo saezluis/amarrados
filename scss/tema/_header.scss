@@ -295,6 +295,60 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				font-size: 3.5em;
 			}
 		}
+
+		//tablaPremios
+		.cuadro{
+			background:$amarillo;
+			padding:2px;
+			width: 100%;
+			margin: 0 6px ;//50
+			@include desde (tablet){
+				margin: 0 auto;
+				width: 60%;
+			}
+			@include desde (web){
+				width: 93%;
+			}
+			h3{
+				text-transform: uppercase;
+				text-align:center;
+				color:$negro;
+				//border-bottom: 2px solid $negro;
+				margin:0 0 5px 0;
+				padding: 5px 0;
+			}
+			.box-table{
+					//border-bottom: 2px solid $negro;
+					border-top: 2px solid $negro;
+					overflow: hidden;
+				    overflow: hidden;
+				    padding: 0.5em 0;
+				.tablaCuadro{
+					width: 49%;
+					float: left;
+					padding: 0 1em;
+					font-size:0.8em;
+					color:$negro;
+					text-align:center;
+					font-weight: bold;
+					vertical-align: medium;
+					//border-bottom: 2px solid $negro;
+					span.numbersT{
+						width: 100%;
+						margin-bottom:10px;
+						display: block;
+					}
+				}
+			}
+		}
+
+		.margen-top{
+			margin-top:1em;
+		}
+
+
+
+
 		.tarjetas{
 			width: 100%;
 			margin-bottom: 1.1em;
@@ -465,8 +519,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 
 }//fin#ganadores
 
-#consulta{
-	form#revisor{
+#consulta,#test-popup{
+	form#revisor,form#revisorpremios{
 		width: 100%;
 		text-align: center;
 		fieldset{

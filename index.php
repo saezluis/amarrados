@@ -131,7 +131,8 @@
                   <area shape="poly" coords="320,231,324,242,325,255,325,262,254,270,215,269,180,270,157,272,132,276,124,264,128,246,138,237,153,236,178,236,207,236,236,235,260,233,290,232,307,233,320,231" href="#ganadores" data-effect="mfp-move-from-top" alt="" class="open-popup-link"/>
                   <area shape="poly" coords="286,212,274,218,245,224,218,224,195,225,172,227,160,222,161,205,165,190,167,184,197,183,220,181,243,181,271,180,286,184,287,205,286,212" href="bases.html" alt=""/>
                   <area shape="poly" coords="294,170,234,176,175,180,139,178,133,158,137,140,155,137,172,138,186,139,199,139,210,138,227,138,236,137,246,137,257,137,268,137,286,136,294,170" href="#test-popup" data-effect="mfp-move-from-top" alt="" class="open-popup-link"/>
-                  <area shape="poly" coords="153,88,148,129,194,132,233,131,276,126,283,112,264,90,225,80,153,88" href="#" alt=""/></map></div>
+                  <!-- <area shape="poly" coords="153,88,148,129,194,132,233,131,276,126,283,112,264,90,225,80,153,88" href="#" alt=""/> -->
+                  </map></div>
                   <div class="bille-verde">
                     <img src="img/billete-verde.png" alt="">
                   </div>
@@ -149,37 +150,89 @@
       <div class="box-light">
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
         <div class="amarritas"><img src="img/amarras.png" alt=""/></div>
-        <h1>Premios</h1>
-        <p class="mecanica">Mientras más Zuko y Livean compres, más opciones tienes de ganar hasta $300.000 semanales, participando en cualquiera de estas categorías:<br/>(Se considerarán las ventas netas.)</p>
+        <h1>Premios</h1>  
+        <form id="revisorpremios">
+              <fieldset>
+                <label>para revisar tu Meta, ingresa tu RUT</label>
+                <input type="number" name="name" id="name" />
+                <input type="button" value="Revisar" id="button"/>
+              </fieldset>
+              <fieldset class="ocultar"> 
+                <div id="info" />
+                <span id="comment"></span>
+              </fieldset>
+        </form>
+        <p class="mecanica">Cumple tus metas de ventas y amárrate a increíbles premios en efectivo:</p>
         <div class="ed-container">
-          <div class="tarjetas color_n">
-            <div class="ed-item">
-              <div class="tarjetits">
-                <img src="img/bronce.png" alt="">
-              </div>
-              <p class="titulo_premios">Bronce</p>
-              <p class="titulo_premios__bajada">Por compras superiores a $5.000, hasta $10.000 en la semana, estás participando por 20 premios semanales de $20.000</p>
+          <div class="cuadro">
+            <h3>Metas Vendedores</h3>
+            <div class="box-table">
+              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
+              <div class="tablaCuadro">Premio</div>
             </div>
-          </div>
-          <div class="tarjetas color_z">
-            <div class="ed-item">
-              <div class="tarjetits">
-                <img src="img/plata.png" alt="">
+          </div><!--.cuadro-->
+
+          <div class="cuadro">
+            <div class="box-table">
+              <div class="tablaCuadro">
+              <span class="numbersT">100%</span>
+              <span class="numbersT">101 - 110%</span>
+              <span class="numbersT">111% - +</span></div>
+              <div class="tablaCuadro">
+                <span class="numbersT">$80.000 </span>
+                <span class="numbersT">$100.000 </span>
+                <span class="numbersT">$130.000</span>
               </div>
-              <p class="titulo_premios">Plata</p>
-              <p class="titulo_premios__bajada">Por compras superiores a $10.001, hasta $35.000 en la semana,  estás participando por 10 premios semanales de $50.000</p>
             </div>
-          </div>
-          <div class="tarjetas color_n">
-            <div class="ed-item">
-              <div class="tarjetits">
-                <img src="img/oro.png" alt="">
+          </div><!--.cuadro-->
+
+          <div class="cuadro margen-top">
+            <h3>Metas Supervisores</h3>
+            <div class="box-table">
+              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
+              <div class="tablaCuadro">Premio</div>
+            </div>
+          </div><!--.cuadro-->
+
+          <div class="cuadro">
+            <div class="box-table">
+              <div class="tablaCuadro">
+              <span class="numbersT">100%</span>
+              <span class="numbersT">101 - 110%</span>
+              <span class="numbersT">111% - +</span></div>
+              <div class="tablaCuadro">
+                <span class="numbersT">$120.000 </span>
+                <span class="numbersT">$150.000 </span>
+                <span class="numbersT">$200.000</span>
               </div>
-              <p class="titulo_premios">Oro</p>
-              <p class="titulo_premios__bajada">Por compras superiores a $35.001 en la semana,  estás participando por 2 premios semanales de $300.000</p>
             </div>
-          </div>
-        </div>
+          </div><!--.cuadro-->
+
+          <div class="cuadro margen-top">
+            <h3>Gestores</h3>
+            <div class="box-table">
+              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
+              <div class="tablaCuadro">Premio</div>
+            </div>
+          </div><!--.cuadro-->
+
+          <div class="cuadro">
+            <div class="box-table">
+              <div class="tablaCuadro">
+              <span class="numbersT">100%</span>
+              <span class="numbersT">101 - 110%</span>
+              <span class="numbersT">111% - +</span></div>
+              <div class="tablaCuadro">
+                <span class="numbersT">$150.000 </span>
+                <span class="numbersT">$200.000 </span>
+                <span class="numbersT">$250.000</span>
+              </div>
+            </div>
+          </div><!--.cuadro-->
+  
+
+
+        </div><!--ed-container-->
         <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
       </div>
     </div>
@@ -251,16 +304,16 @@
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
         <div class="amarritas"><img src="img/amarras.png" alt=""/></div>
         <h1>Ver mis avances</h1>		
-		<form id="revisor">
-          <fieldset>
-            <label>para revisar tu avance, ingresa tu RUT</label>
-            <input type="number" name="name" id="name" />
-            <input type="button" value="Revisar" id="button"/>
-          </fieldset>
-          <fieldset class="ocultar"> 
-            <div id="info" />
-            <span id="comment"></span>
-          </fieldset>
+    		<form id="revisor">
+              <fieldset>
+                <label>para revisar tu avance, ingresa tu RUT</label>
+                <input type="number" name="name" id="name" />
+                <input type="button" value="Revisar" id="button"/>
+              </fieldset>
+              <fieldset class="ocultar"> 
+                <div id="info" />
+                <span id="comment"></span>
+              </fieldset>
         </form>
         <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
       </div>
