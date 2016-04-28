@@ -38,6 +38,30 @@
 
 			});
 			
+			/*
+			$('#name').bind("keypress", function(e) {
+				if (e.keyCode == 13) {
+					var name=$("#name").val();
+				  //var message=$("#message").val();
+
+						$.ajax({
+						  type:"post",
+						  url:"process.php",
+						  //data:"name="+name+"&message="+message+"&action=addcomment",
+						  data:"name="+name+"&action=showcomment",
+						  success:function(data){
+							$("#comment").html(data);
+							//showComment();
+							  
+						  }
+
+						});
+					//alert("Enter pressed");
+					//return false; // prevent the button click from happening
+				}
+			});
+			*/
+			
 			$("#button2").click(function(){
 				
 				  /*
@@ -94,8 +118,26 @@
 					});*/
 					  
 				  });
-				  
-				  
+				
+			});
+			
+			$("#button_premio").click(function(){
+
+					var rut = $("#var_rut").val();
+					//var message=$("#message").val();
+
+					$.ajax({
+					  type:"post",
+					  url:"procesar-premio.php",
+					  //data:"name="+name+"&message="+message+"&action=addcomment",
+					  data:"rut="+rut,
+					  success:function(data){
+						$("#comment3").html(data);
+						//showComment();
+						  
+					  }
+
+					});
 
 			});
 			
@@ -146,6 +188,8 @@
         </div>
       </div>
     </div>
+	
+	
     <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
       <div class="box-light">
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
@@ -154,88 +198,18 @@
         <form id="revisorpremios">
               <fieldset>
                 <label>para revisar tu Meta, ingresa tu RUT</label>
-                <input type="number" name="name" id="name" />
-                <input type="button" value="Revisar" id="button"/>
+                <input type="number" name="name" id="var_rut" />
+                <input type="button" value="Revisar" id="button_premio"/>
               </fieldset>
               <fieldset class="ocultar"> 
                 <div id="info" />
-                <span id="comment"></span>
+                <span id="comment3"></span>
               </fieldset>
-        </form>
-        <p class="mecanica">Cumple tus metas de ventas y amárrate a increíbles premios en efectivo:</p>
-        <div class="ed-container">
-          <div class="cuadro">
-            <h3>Metas Vendedores</h3>
-            <div class="box-table">
-              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
-              <div class="tablaCuadro">Premio</div>
-            </div>
-          </div><!--.cuadro-->
-
-          <div class="cuadro">
-            <div class="box-table">
-              <div class="tablaCuadro">
-              <span class="numbersT">100%</span>
-              <span class="numbersT">101 - 110%</span>
-              <span class="numbersT">111% - +</span></div>
-              <div class="tablaCuadro">
-                <span class="numbersT">$80.000 </span>
-                <span class="numbersT">$100.000 </span>
-                <span class="numbersT">$130.000</span>
-              </div>
-            </div>
-          </div><!--.cuadro-->
-
-          <div class="cuadro margen-top">
-            <h3>Metas Supervisores</h3>
-            <div class="box-table">
-              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
-              <div class="tablaCuadro">Premio</div>
-            </div>
-          </div><!--.cuadro-->
-
-          <div class="cuadro">
-            <div class="box-table">
-              <div class="tablaCuadro">
-              <span class="numbersT">100%</span>
-              <span class="numbersT">101 - 110%</span>
-              <span class="numbersT">111% - +</span></div>
-              <div class="tablaCuadro">
-                <span class="numbersT">$120.000 </span>
-                <span class="numbersT">$150.000 </span>
-                <span class="numbersT">$200.000</span>
-              </div>
-            </div>
-          </div><!--.cuadro-->
-
-          <div class="cuadro margen-top">
-            <h3>Gestores</h3>
-            <div class="box-table">
-              <div class="tablaCuadro">Intervalos de cumplimiento de META</div>
-              <div class="tablaCuadro">Premio</div>
-            </div>
-          </div><!--.cuadro-->
-
-          <div class="cuadro">
-            <div class="box-table">
-              <div class="tablaCuadro">
-              <span class="numbersT">100%</span>
-              <span class="numbersT">101 - 110%</span>
-              <span class="numbersT">111% - +</span></div>
-              <div class="tablaCuadro">
-                <span class="numbersT">$150.000 </span>
-                <span class="numbersT">$200.000 </span>
-                <span class="numbersT">$250.000</span>
-              </div>
-            </div>
-          </div><!--.cuadro-->
-  
-
-
-        </div><!--ed-container-->
-        <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
+        </form>        
       </div>
     </div>
+	
+	
     <div id="contacto" class="white-popup mfp-with-anim mfp-hide">
       <div class="box-light">
         <div class="pres-log"><img src="img/logo.png" alt=""/></div>
