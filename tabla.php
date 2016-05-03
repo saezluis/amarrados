@@ -230,7 +230,79 @@
                 <div id="info" />
                 <span id="comment3"></span>
               </fieldset>
-        </form>        
+        </form>
+          <table class="pure-table pure-table-horizontal">
+            <h2 style="color:#fff; text-align: center; font-size: 1.4em;">Metas Vendedores</h2>
+            <thead>
+              <tr>
+                <th>Si cumplo mi META al:</th>
+                <th>Gano:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100%</td>
+                <td>Giftcard de $80.000</td>
+              </tr>
+              <tr>
+                <td>101 - 110%</td>
+                <td>Giftcard de $100.000</td>
+              </tr>
+              <tr>
+                <td>111% - +</td>
+                <td>Giftcard de $130.000</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="pure-table pure-table-horizontal">
+          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS SUPERVISORES
+            <thead>
+              <tr>
+                <th>Si cumplo mi META al:</th>
+                <th>Gano:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100%</td>
+                <td>Giftcard de $120.000</td>
+              </tr>
+              <tr>
+                <td>101 - 110%</td>
+                <td>Giftcard de $150.000</td>
+              </tr>
+              <tr>
+                <td>111% - +</td>
+                <td>Giftcard de $200.000</td>
+              </tr>
+            </tbody>
+          </table>  
+
+          <table class="pure-table pure-table-horizontal">
+          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS GESTORES
+            <thead>
+              <tr>
+                <th>Si cumplo mi META al:</th>
+                <th>Gano:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100%</td>
+                <td>Giftcard de $150.000</td>
+              </tr>
+              <tr>
+                <td>101 - 110%</td>
+                <td>Giftcard de $200.000</td>
+              </tr>
+              <tr>
+                <td>111% - +</td>
+                <td>Giftcard de $250.000</td>
+              </tr>
+            </tbody>
+          </table>  
+
       </div>
     </div>
 	
@@ -246,7 +318,7 @@
 			<input type="text" name="nombre" id="nombre" required />
 			<label for="mail">Tu mail</label>
 			<input type="mail" name="mail" id="mail" required />
-			<label for="cuentame"> Cuéntanos</label>
+			<label for="cuentame"> cuéntanos</label>
 			<textarea name="cuentame" id="cuentame" required ></textarea>
 			<input type="submit" value="Enviar" id="button2" />
 			<span id="mensaje"></span>
@@ -305,7 +377,7 @@
         <h1>Ver mis avances</h1>		
     		<form id="revisor">
               <fieldset>
-                <label>Para revisar tu avance, ingresa tu RUT</label>
+                <label>para revisar tu avance, ingresa tu RUT</label>
                 <input type="number" name="name" id="name" />
                 <input type="button" value="Revisar" id="button"/>
               </fieldset>
@@ -314,6 +386,7 @@
                 <span id="comment"></span>
               </fieldset>
         </form>
+
         <div class="billete-l"><img src="img/billete-l.png" alt=""/></div>
       </div>
     </div>

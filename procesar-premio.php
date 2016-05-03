@@ -20,6 +20,7 @@
 	
 	
 		echo "<p class=\"mecanica\">Cumple tus metas de ventas y amárrate a increíbles premios en efectivo:</p>";
+		echo "<a class=\"bases\" href=\"#\">Descargar Bases</a>";
 		
 		if(@$perfil_vendedor=='vendedor'){
 			echo "<div class=\"ed-container\">";
@@ -35,12 +36,12 @@
 				echo "<div class=\"box-table\">";
 				  echo "<div class=\"tablaCuadro\">";
 				  echo "<span class=\"numbersT\">100%</span>";
-				  echo "<span class=\"numbersT\">101 - 110%</span>";
-				  echo "<span class=\"numbersT\">111% - +</span></div>";
+				  echo "<span class=\"numbersT numbersTu\">101 - 110%</span>";
+				  echo "<span class=\"numbersT numbersTd\">111% - +</span></div>";
 				  echo "<div class=\"tablaCuadro\">";
-					echo "<span class=\"numbersT\">$80.000 </span>";
-					echo "<span class=\"numbersT\">$100.000 </span>";
-					echo "<span class=\"numbersT\">$130.000</span>";
+					echo "<span class=\"numbersT\">Giftcard de $80.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $100.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $130.000</span>";
 				  echo "</div>";
 				echo "</div>";
 			  echo "</div><!--.cuadro-->";
@@ -62,9 +63,9 @@
 				  echo "<span class=\"numbersT\">101 - 110%</span>";
 				  echo "<span class=\"numbersT\">111% - +</span></div>";
 				  echo "<div class=\"tablaCuadro\">";
-					echo "<span class=\"numbersT\">$120.000 </span>";
-					echo "<span class=\"numbersT\">$150.000 </span>";
-					echo "<span class=\"numbersT\">$200.000</span>";
+					echo "<span class=\"numbersT\">Giftcard de $120.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $150.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $200.000</span>";
 				  echo "</div>";
 				echo "</div>";
 			  echo "</div><!--.cuadro-->";
@@ -86,9 +87,9 @@
 				  echo "<span class=\"numbersT\">101 - 110%</span>";
 				  echo "<span class=\"numbersT\">111% - +</span></div>";
 				  echo "<div class=\"tablaCuadro\">";
-					echo "<span class=\"numbersT\">$150.000 </span>";
-					echo "<span class=\"numbersT\">$200.000 </span>";
-					echo "<span class=\"numbersT\">$250.000</span>";
+					echo "<span class=\"numbersT\">Giftcard de $150.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $200.000 </span>";
+					echo "<span class=\"numbersT\">Giftcard de $250.000</span>";
 				  echo "</div>";
 				echo "</div>";
 			 echo "</div><!--.cuadro-->";

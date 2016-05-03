@@ -49,7 +49,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:130vh;
+    height:140vh;
     width: 100% ;
 	background: rgba(0,143,55,1);
 	background: -moz-linear-gradient(left, rgba(0,143,55,1) 0%, rgba(0,143,55,1) 49%, rgba(0,116,179,1) 50%, rgba(0,116,179,1) 100%);
@@ -164,6 +164,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		.claim-foot-mobile{
 			margin-top:10px;
 			text-align: center;
+			margin-bottom: 2em;
 			@include desde (tablet){
 				display: none;
 			}
@@ -174,9 +175,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			@include desde (tablet){
 				position: absolute;
 				display:block;
-				bottom:0px;
+				bottom:30px;
 				width: 80%;
-				right: 0;
+				right: -20px;
 			}
 			@include desde (hd){
 				width: 70%;
@@ -185,6 +186,135 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		}
 	}
 
+	.semana{
+		margin: 0 auto 1em auto;
+		width: 80%;
+		p{
+			font-size: 1.2em;
+			background: $sal;
+			text-align: center;
+			text-transform: uppercase;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			padding:5px;
+			@include desde (tablet){
+				-webkit-border-bottom-right-radius: 5px;
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-radius-bottomright: 5px;
+				-moz-border-radius-bottomleft: 5px;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+
+				border-top-left-radius: 0px;
+				border-top-right-radius: 0px;
+
+				-moz-border-top-left-radius: 0px;
+				-moz-border-top-right-radius: 0px;
+
+				-webkit-border-top-left-radius: 0px;
+				-webkit-border-top-right-radius: 0px;
+
+			}
+		}
+	}
+
+//RRSS
+	.tabletWeb{
+		position: static;
+		@include desde (tablet){
+			position: absolute;
+			bottom:0;
+			background: #fff;
+		}
+	}
+	.linksWeb{
+		background: #fff;
+		overflow: hidden;
+		padding: 0px 10px 5px 10px;
+		//margin-top: 1.5em;
+		@include desde (tablet){
+			padding: 0 10px;
+		}
+		.linksWeb__go1{
+			display: block;
+			width: 30%;
+			float:left;
+			@include desde (tablet){
+				width: 20%;
+				margin-top:8px;
+			}
+			@include desde (hd){
+				width: 12%;
+			}
+		}
+		.linksWeb__go2{
+			display: block;
+			width: 30%;
+			float:right;
+			margin-right: 10px;
+			@include desde (tablet){
+				width: 20%;
+				margin-top:8px;
+				float:left;
+				margin-left: 1em;
+			}
+			@include desde (hd){
+				width: 12%;
+			}
+		}
+	}
+
+	///links facebook
+	.rrsss{
+		background: #fff;
+		overflow: hidden;
+		@include desde (tablet){
+			float:right;
+		}
+			h3{
+				font-size: 0.8em;
+				text-align: left;
+				font-weight: normal;
+				margin-left: 15px;
+				float:left;
+				@include desde (tablet){
+					font-size: 0.6em;
+					margin:0;
+					line-height: 4;
+				}
+			}
+			a.facebook{
+				float: left;
+				span.fz{
+					width: 40%;
+					// display: block;
+					float:left;
+					margin-top: 10px;
+					margin-left: 10px;
+					@include desde (tablet){
+						width: 30%;
+					}
+				}
+			}
+			a.facebookL{
+				float: left;
+			    position: relative;
+			    left: -10px;
+			    @include desde (tablet){
+			    	left: -20px;
+			    }
+				span.fl{
+					width: 48%;
+					// display: block;
+					float:left;
+					margin-top: 10px;
+					@include desde (tablet){
+						width: 36%;
+					}
+				}
+			}
+		}//rrss
 }//fin .bg
 
 .no-logo{
@@ -228,6 +358,36 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
   opacity: 0;
 }
 
+#test-popup{
+	.pure-table{
+		width: 100%;
+		table-layout: fixed;
+		text-align:center;
+		.tab-titulo{
+			color:#fff !important;
+			text-align: center;
+		}
+		thead{
+			background: #EF8322;
+			tr{
+				th{
+					font-size: 0.8em;
+					color:#fff;
+				}
+			}
+		}
+		tbody tr:nth-child(even) {
+		   background-color: #EF8322;
+		}
+		tbody tr:nth-child(odd) {
+		   background-color: #0083C0;
+		}
+		@include desde (tablet){
+			width: 90%;
+		}
+
+	}
+}
 
 #test-popup,#contacto,#ganadores,#consulta{
 	width: 100%;
@@ -286,13 +446,13 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		}
 		h1{
 			width: 100%;
-			color:$amarillo;
+			color:$blanco;//amarillo
 			text-align: center;
 			margin: 15px 0 0 0;
 			font-family: 'Conv_TrashHand';
 			font-size: 2.3em;
 			@include desde (web){
-				font-size: 3.5em;
+				font-size: 2.2em;
 			}
 		}
 
@@ -337,6 +497,22 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 						width: 100%;
 						margin-bottom:10px;
 						display: block;
+						margin-top: 35px;
+					}
+					.numbersTu{
+						margin-top: 44px !important;
+						@include desde (tablet){
+							margin-top: 60px !important
+						}
+						@include desde (web){
+							margin-top:35px !important;
+						}
+					}
+					.numbersTd{
+						margin-top: 54px !important;
+						@include desde (web){
+							margin-top:35px !important;
+						}
 					}
 				}
 			}
@@ -389,6 +565,16 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			color:$blanco;
 			text-align: center;
 			width: 100%;
+		}
+		a.bases{
+ 		width: 60%;
+    	padding: 10px;
+    	text-align: center;
+    	color: #fff;
+    	background: $sal;
+    	display: block;
+   	 	margin: 0 auto;
+
 		}
 		ul.data-premio{
 			margin:0;
@@ -462,7 +648,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			background: transparent;
 		}
 		input,textarea{
-			border: 1px solid $amarillo;
+			border: 1px solid $verde;
 			padding:0.8em;
 			color:$blanco;			
 		}
@@ -475,7 +661,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     		font-size: 0.9em;
 		}
 		input[type="submit"]{
-			background: $amarillo;
+			background: $verde;
 			color: $blanco;
 			text-align: center;
 			text-transform: uppercase;
@@ -502,20 +688,20 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 		height: 650px;
 	}
 
-	.pure-table{
-		width: 100%;
-		table-layout: fixed;
-		tbody tr:nth-child(even) {
-		   background-color: #EF8322;
-		}
-		tbody tr:nth-child(odd) {
-		   background-color: #0083C0;
-		}
-		@include desde (tablet){
-			width: 90%;
-		}
+	// .pure-table{
+	// 	width: 100%;
+	// 	table-layout: fixed;
+	// 	tbody tr:nth-child(even) {
+	// 	   background-color: #EF8322;
+	// 	}
+	// 	tbody tr:nth-child(odd) {
+	// 	   background-color: #0083C0;
+	// 	}
+	// 	@include desde (tablet){
+	// 		width: 90%;
+	// 	}
 
-	}
+	// }
 
 }//fin#ganadores
 
@@ -532,7 +718,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			}
 			input[type="number"]{
 				border:none;
-				border: 2px solid $amarillo;
+				border: 2px solid $verde;//amarillo
 				background: transparent;
 				padding: 8px;
 				width: 90%;
@@ -542,6 +728,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				@include desde (tablet){
 					width: 60%;
 				}
+				@include desde (web){
+					padding:3px;
+				}
 			}
 			input[type="text"]{
 				border:none;
@@ -549,7 +738,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				background: transparent;
 				padding: 8px;
 				width: 90%;
-				color: $amarillo;
+				color: $verde;
 				text-align: center;
 				font-size: 2.5em;
 				text-transform: uppercase;
@@ -561,11 +750,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				}
 			}
 			input[type="button"]{
-				background: $amarillo;
-				color: $negro;
+				background: $verde;
+				color: $blanco;
 				text-align: center;
 				text-transform: uppercase;
-				border:4px solid $amarillo;
+				border:4px solid $verde ;
 				width: 90%;
 				margin-top: 0.8em;
 				font-size: 1.5em;

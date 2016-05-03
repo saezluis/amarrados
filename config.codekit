@@ -62,6 +62,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg-vendedor 2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 472121,
+		"inputAbbreviatedPath": "\/img\/bg-vendedor 2.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-vendedor 2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg-vendedor-22.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -80,6 +91,17 @@
 		"initialSize": 492964,
 		"inputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg_top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54092,
+		"inputAbbreviatedPath": "\/img\/bg_top.jpg",
+		"outputAbbreviatedPath": "\/img\/bg_top.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -139,6 +161,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/face.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 506,
+		"inputAbbreviatedPath": "\/img\/face.png",
+		"outputAbbreviatedPath": "\/img\/face.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/facel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 509,
+		"inputAbbreviatedPath": "\/img\/facel.png",
+		"outputAbbreviatedPath": "\/img\/facel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ima-foot.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -172,6 +216,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/nutresa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3777,
+		"inputAbbreviatedPath": "\/img\/nutresa.png",
+		"outputAbbreviatedPath": "\/img\/nutresa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/oro.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -179,6 +234,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/oro.png",
 		"outputAbbreviatedPath": "\/img\/oro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/palomita 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/palomita 2.png",
+		"outputAbbreviatedPath": "\/img\/palomita 2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -223,6 +289,17 @@
 		"initialSize": 41799,
 		"inputAbbreviatedPath": "\/img\/tizaok.png",
 		"outputAbbreviatedPath": "\/img\/tizaok.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tmluc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4116,
+		"inputAbbreviatedPath": "\/img\/tmluc.jpg",
+		"outputAbbreviatedPath": "\/img\/tmluc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
