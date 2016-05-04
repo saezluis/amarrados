@@ -116,7 +116,7 @@
                             //minlength: 5
                         }						
                     },
-						
+					
 					submitHandler: function() {
                         $.post('procesar-contacto.php', 
                         $('form#myForm').serialize() , 

@@ -40,7 +40,7 @@
         echo "<label>Hasta hoy tienes:</label>";
         echo "<input type=\"text\" value=\"$lleva_total / $porce_rend %AA\" readonly />";
      }else{
-		echo "El RUT no está registrado";
+		echo "El Codigo no está registrado";
 	 }
 	 
   }

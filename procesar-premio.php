@@ -8,10 +8,10 @@
 	$conexion=mysqli_connect($host,$username,$password,$db_name) or die("Problemas con la conexión");
 	$acentos = $conexion->query("SET NAMES 'utf8'");	
 	 
-	$registrosPremio = mysqli_query($conexion, "SELECT * FROM vendedores WHERE rut = '$rut' ") or die("Problemas con el select de premio");
+	$registrosPremio = mysqli_query($conexion, "SELECT * FROM vend WHERE codigo = '$rut' ") or die("Problemas con el select de premio");
 	
 	if($regVend=mysqli_fetch_array($registrosPremio)){
-		$perfil_vendedor = $regVend['perfil'];
+		$perfil = $regVend['perfil'];
 	}
 	
 	$num_reg_premio = mysqli_num_rows($registrosPremio);
@@ -22,7 +22,7 @@
 		echo "<p class=\"mecanica\">Cumple tus metas de ventas y amárrate a increíbles premios en efectivo:</p>";
 		echo "<a class=\"bases\" href=\"Bases_Legales.pdf\" target=\"_blank\">Descargar Bases</a>";
 		
-		if(@$perfil_vendedor=='vendedor'){
+		if(@$perfil=='vendedor'){
 			
 			echo "<table class=\"pure-table pure-table-horizontal\">";
             echo "<h2 style=\"color:#fff; text-align: center; font-size: 1.4em;\">Metas Vendedores</h2>";
@@ -74,7 +74,7 @@
 			  */
 		}
 		
-		if(@$perfil_vendedor=='supervisor'){
+		if(@$perfil=='supervisor'){
 			
 			echo "<table class=\"pure-table pure-table-horizontal\">";
 			echo "<h2 style=\"color:#fff; text-align: center; font-size: 1.4em;\">METAS SUPERVISORES</h2>";
@@ -125,7 +125,7 @@
 			  */
 		}
 		
-		if(@$perfil_vendedor=='gestor'){
+		if(@$perfil=='gestor'){
 		
 		echo "<table class=\"pure-table pure-table-horizontal\">";
 			echo "<h2 style=\"color:#fff; text-align: center; font-size: 1.4em;\">METAS GESTORES</h2>";
@@ -178,7 +178,7 @@
 			 echo "<div class=\"billete-l\"><img src=\"img/billete-l.png\" alt=\"\"/></div>";
 		 
 	}else{
-		echo "Rut no se encuentra registrado.";
+		echo "El Codigo no se encuentra registrado.";
 	}
 
 ?>
