@@ -15,7 +15,7 @@
 	  
 	 $name=$_POST["name"];
 	
-     $show=mysqli_query($conexion, "SELECT * FROM comment WHERE message = '$name' ");
+     $show=mysqli_query($conexion, "SELECT * FROM vend WHERE codigo = $name AND perfil = 'vendedor' ");
 	
      if($row=mysqli_fetch_array($show)){
 		/*
@@ -23,10 +23,22 @@
 		echo "<br>";
         echo "Hasta hoy tienes: $row[name] Pts";
 		*/
-		echo "<label>Tu meta mensual es de :</label>";
-        echo "<input type=\"text\" value=\"40.000 sobres.\" readonly />";
+		$venta_2015 = $row['venta_2015'];
+		$meta_2016 = $row['meta_2016'];
+		$total_meta = number_format($meta_2016,0, ",", ".");
+		$lleva = $row['lleva'];
+		
+		$resta = $lleva - $venta_2015;
+		$division = ($resta / $venta_2015);
+		$porcentaje = ($division * 100);
+		$porce_rend = ceil($porcentaje);
+		
+		$lleva_total = number_format($lleva,0, ",", ".");
+		
+		echo "<label>Tu meta bi-mensual (Mayo+Junio) es de :</label>";
+        echo "<input type=\"text\" value=\"$total_meta\" readonly />";
         echo "<label>Hasta hoy tienes:</label>";
-        echo "<input type=\"text\" value=\"$row[name] sobres.\" readonly />";
+        echo "<input type=\"text\" value=\"$lleva_total / $porce_rend %AA\" readonly />";
      }else{
 		echo "El RUT no está registrado";
 	 }

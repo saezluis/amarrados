@@ -168,33 +168,6 @@
 
 			});
 			
-			
-			$("#var_rut").bind("keypress", {}, keypressInBoxPrem);
-
-			function keypressInBoxPrem(e) {
-				var codeP = (e.keyCode ? e.keyCode : e.which);
-				if (codeP == 13) { //Enter keycode                        
-					e.preventDefault();
-					
-					var rut=$("#var_rut").val();
-					
-					$.ajax({
-					  type:"post",
-					  url:"procesar-premio.php",
-					  //data:"name="+name+"&message="+message+"&action=addcomment",
-					  data:"rut="+rut,
-					  success:function(data){
-						$("#comment3").html(data);
-						//showComment();
-						  
-					  }
-
-					});
-					//$("yourFormId").submit();
-				}
-			};
-			
-			
 	   });
     </script>
 	
@@ -276,7 +249,7 @@
         <h1>Premios</h1>  
         <form id="revisorpremios">
               <fieldset>
-                <label>para revisar tu Meta, ingresa tu Codigo</label>
+                <label>para revisar tu Meta, ingresa tu RUT</label>
                 <input type="number" name="name" id="var_rut" />
                 <input type="button" value="Revisar" id="button_premio"/>
               </fieldset>
@@ -359,7 +332,7 @@
         <h1>Ver mis avances</h1>		
     		<form id="revisor">
               <fieldset>
-                <label>Para revisar tu avance, ingresa tu Codigo</label>
+                <label>Para revisar tu avance, ingresa tu RUT</label>
                 <input type="number" name="name" id="name" />
                 <input type="button" value="Revisar" id="button"/>
               </fieldset>
