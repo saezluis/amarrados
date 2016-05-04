@@ -156,6 +156,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				@include desde (web){
 					width: 78%;
 				}
+				@include desde (ze){
+					width: 58%;
+				}
 				@include desde (hd){
 					width: 56%;
 				}
