@@ -166,9 +166,9 @@
               </div>
             </section>
             <div class="logo no-logo"><a href="index.html" title="Amarrados" alt="Amarrados"><img src="img/logo.png" alt=""/></a></div>
-            <div class="semana">
+<!--             <div class="semana">
               <p>Vamos en la semana nº1</p>
-            </div>
+            </div> -->
             <div class="navegacion">
               <div class="nav-palomita">
                 <img name="palomita" src="img/palomita.png" width="416" height="507" id="palomita" usemap="#m_palomita" alt="" />
