@@ -256,7 +256,7 @@
           </table>
 
           <table class="pure-table pure-table-horizontal">
-          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS SUPERVISORES
+          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS SUPERVISORES</h2>
             <thead>
               <tr>
                 <th>Si cumplo mi META al:</th>
@@ -280,7 +280,7 @@
           </table>  
 
           <table class="pure-table pure-table-horizontal">
-          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS GESTORES
+          <h2 style="color:#fff; text-align: center; font-size: 1.4em;">METAS GESTORES</h2>
             <thead>
               <tr>
                 <th>Si cumplo mi META al:</th>
