@@ -89,30 +89,6 @@
 				}
 			};
 			
-			
-			$("#button2").click(function(){
-
-				  var nombre = $("#nombre").val();
-				  var mail = $("#mail").val();
-				  var cuentame = $("#cuentame").val();
-				  //var message=$("#message").val();
-
-				  $.ajax({
-					  type:"post",
-					  url:"enviar-mail.php",
-					  //data:"name="+name+"&message="+message+"&action=addcomment",
-					  data:"nombre="+nombre+"&mail="+mail+"&cuentame="+cuentame,
-					  //success:function(data){
-						//$("#comment").html(data);
-						//showComment();
-						  
-					  //}
-
-				  });
-
-			});
-			
-			
 			$("#button2").click(function(){
 				
 				  /*
@@ -171,7 +147,6 @@
 				  });
 				
 			});
-			
 			
 			$("#button_premio").click(function(){
 
@@ -271,7 +246,7 @@
         </div>
       </div>
 
-      <div class="ed-container total no-padding tabletWeb ta">
+      <div class="ed-container total no-padding tabletWeb">
           <div class="ed-item base-100 tablet-50">
             <div class="linksWeb">
               <a class="linksWeb__go1" href="http://www.tmluc.cl/" target="_blank"><img src="img/tmluc.jpg" alt="Ir al sitio de TMLUC"></a>

@@ -12,6 +12,6 @@
 	\n Correo del usuario que escribe: $mail 
 	\n ";
 	
-	mail($user, '=?utf-8?B?'.base64_encode($subject).'?=' ,$message, $headers );
+	mail($to, '=?utf-8?B?'.base64_encode($subject).'?=' ,$message, $headers );
 
 ?>
