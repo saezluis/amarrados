@@ -19,7 +19,8 @@
 	if($num_reg_premio!=0){
 	
 	
-		echo "<p class=\"mecanica\">Cumple tus metas de ventas y amárrate a increíbles premios en efectivo:</p>";
+		echo "<p class=\"mecanica\">Cumple tus metas de ventas y amárrate a increíbles premios en Gift Card Cencosud:</p>";
+		echo "<div class=\"card\"><img src=\"img/card.png\"/></div>";
 		echo "<a class=\"bases\" href=\"Bases_Legales.pdf\" target=\"_blank\">Descargar Bases</a>";
 		
 		if(@$perfil=='vendedor'){

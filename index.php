@@ -246,7 +246,7 @@
         </div>
       </div>
 
-      <div class="ed-container total no-padding tabletWeb">
+      <div class="ed-container total no-padding tabletWeb ta">
           <div class="ed-item base-100 tablet-50">
             <div class="linksWeb">
               <a class="linksWeb__go1" href="http://www.tmluc.cl/" target="_blank"><img src="img/tmluc.jpg" alt="Ir al sitio de TMLUC"></a>

@@ -5147,16 +5147,17 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   @media screen and (min-width: 768px) {
     .bg {
       background: url(../img/bg-vendedor.jpg) no-repeat -220px;
+      background-position-x: 1px;
       background-size: cover;
       height: 100%;
       width: 100%; } }
   @media screen and (min-width: 1024px) {
     .bg {
-      background: url(../img/bg-vendedor.jpg) no-repeat fixed center;
+      background: url(../img/bg-vendedor.jpg) no-repeat 0 center;
       background-size: cover; } }
   .bg .please {
     display: none; }
-  @media (max-width: 1000px) and (orientation: landscape) {
+  @media (max-width: 768px) and (orientation: landscape) {
     .bg .wrap {
       display: none; }
     .bg .please {
@@ -5549,6 +5550,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
       color: #fff;
       text-align: center;
       width: 100%; }
+    #test-popup .box-light .card, #contacto .box-light .card, #ganadores .box-light .card, #consulta .box-light .card {
+      width: 62%;
+      margin: 0 auto 1em auto; }
     #test-popup .box-light a.bases, #contacto .box-light a.bases, #ganadores .box-light a.bases, #consulta .box-light a.bases {
       width: 60%;
       padding: 10px;

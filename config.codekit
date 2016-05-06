@@ -38,6 +38,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/enviar-mail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/enviar-mail.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/gulpfile.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -93,6 +102,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg-vendedor 4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316746,
+		"inputAbbreviatedPath": "\/img\/bg-vendedor 4.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-vendedor 4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg-vendedor-22.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -100,17 +120,6 @@
 		"initialSize": 585040,
 		"inputAbbreviatedPath": "\/img\/bg-vendedor-22.jpg",
 		"outputAbbreviatedPath": "\/img\/bg-vendedor-22.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bg-vendedor.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 492964,
-		"inputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
-		"outputAbbreviatedPath": "\/img\/bg-vendedor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -276,17 +285,6 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/palomita 2.png",
 		"outputAbbreviatedPath": "\/img\/palomita 2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/palomita.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 287444,
-		"inputAbbreviatedPath": "\/img\/palomita.png",
-		"outputAbbreviatedPath": "\/img\/palomita.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

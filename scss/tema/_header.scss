@@ -65,6 +65,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 	// }
     @include desde (tablet){
     	background: url(../img/bg-vendedor.jpg) no-repeat -220px;//315//245
+    	background-position-x: 1px;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -74,7 +75,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     }
 
     @include desde (web){
-		background: url(../img/bg-vendedor.jpg) no-repeat fixed center;
+		background: url(../img/bg-vendedor.jpg) no-repeat 0 center;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -83,7 +84,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 	.please{
 		display:none;
 	}
-    @media (max-width: 1000px) and (orientation: landscape) { 
+    @media (max-width: 768px) and (orientation: landscape) { 
 		.wrap{
 			display:none;
 		}
@@ -95,6 +96,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 				width: 40%;
 			}
 		}
+		
     }
 
 	.wrap{
@@ -569,6 +571,10 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 			text-align: center;
 			width: 100%;
 		}
+		.card{
+			width: 62%;
+			margin: 0 auto 1em auto;
+		}
 		a.bases{
  		width: 60%;
     	padding: 10px;
@@ -576,7 +582,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     	color: #fff;
     	background: $sal;
     	display: block;
-   	 	margin: 0 auto;
+   	 	margin: 0 auto ;
 
 		}
 		ul.data-premio{
